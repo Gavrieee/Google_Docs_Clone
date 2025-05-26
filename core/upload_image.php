@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require_once 'dbConfig.php'; // Adjust your DB connection
+require_once 'dbConfig.php';
 
 if (!isset($_SESSION['users_id'])) {
     echo json_encode(['success' => false, 'error' => 'Unauthorized']);
