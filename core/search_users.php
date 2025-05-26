@@ -1,6 +1,6 @@
 <?php
-require_once 'models.php'; // or wherever your function is
-require_once 'dbConfig.php'; // Database connection
+require_once 'models.php'; 
+require_once 'dbConfig.php';
 
 $searchTerm = $_GET['query'] ?? '';
 $documentId = $_GET['doc_id'] ?? 0;
